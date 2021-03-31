@@ -1,17 +1,17 @@
 <template>
   <div class="fruits">
-    <FruitList></FruitList>
+    <FruitDetail></FruitDetail>
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import FruitList from '@/components/FruitList.vue';
+import FruitDetail from '@/components/FruitDetail.vue';
 
 export default {
-  name: 'Home',
+  name: 'Detail',
   components: {
-    FruitList,
+    FruitDetail,
   },
 };
 </script>
