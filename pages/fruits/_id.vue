@@ -1,15 +1,15 @@
 <template>
   <v-row justify="center" align="center">
-    <FruitList></FruitList>
+    <FruitDetail></FruitDetail>
   </v-row>
 </template>
 
 <script>
-import FruitList from '~/components/FruitList.vue'
+import FruitDetail from '~/components/FruitDetail.vue'
 
 export default {
   components: {
-    FruitList,
+    FruitDetail,
   },
 }
 </script>
